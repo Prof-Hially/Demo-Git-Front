@@ -1,0 +1,25 @@
+/*seletor*/
+*{
+    margin: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #9dcfbe;
+}
+ul{
+
+    display: flex;/*posicionar elementos lado a lado*/
+    justify-content: center;
+}
+a{
+    padding: 20px;
+    list-style-type: none;/*remover marcador*/
+    text-decoration: none;
+}
+a:hover{
+    color:yellow;
+    background-color: cadetblue;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px black;
+}
